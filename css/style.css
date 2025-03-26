@@ -917,9 +917,10 @@ body{
     .section{
         transform: translate(0%, 25%);
     }
-    #block-1,
-    #block-2,
-    #block-4{
+    .box-parallax #block-1,
+    .box-parallax #block-2,
+    .box-parallax #block-4{
+        background-size: cover;
         height: 105vh;
     }
     #block-3,
