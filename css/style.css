@@ -192,6 +192,9 @@ body{
         .box-bajada-especial p:nth-child(3){
             font-family: 'preloextrabold';
         }
+        .box-bajada-especial p b{
+            font-family: 'preloextrabold';
+        }
 .box-main-test{
 
 }
@@ -707,12 +710,12 @@ body{
         width: 100%; 
     }  
     #block-1 {
-        background-image: url('../img/persona-1.webp');
+        background-image: url('../img/persona-1-1.webp');
         opacity: 1; 
         z-index: 10;
     }    
     #block-2 {
-        background-image: url('../img/persona-2.webp');
+        background-image: url('../img/persona-2-2.webp');
         opacity: 0; 
         z-index: 20;
     }       
@@ -750,7 +753,7 @@ body{
                     color: #75F0B3;
                 }
     #block-4 {            
-        background-image: url('../img/persona-3.webp');
+        background-image: url('../img/persona-3-2.webp');
         opacity: 0; 
         z-index: 40;
     }  
@@ -925,6 +928,7 @@ body{
     }
     .box-manos{
         margin-top: 400px;
+        overflow-x: hidden;
     }
     .box-texto-manos{
         top: -140px;
