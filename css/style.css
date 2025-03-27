@@ -106,7 +106,7 @@ body{
                             width: 36px;
                         }
                         #fb{
-                            background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/fb-icon.png?v2) no-repeat 0 0;
+                            background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/fb-icon-negro.png?v2) no-repeat 0 0;
                             background-size: 100% !important;
                             border: none;
                             display: inline-block;
@@ -115,7 +115,7 @@ body{
                             width: 36px;
                         }
                         #wst{                
-                            background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/wsp-icon.png?v2) no-repeat 0 0 !important;
+                            background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/wsp-icon-negro.png?v2) no-repeat 0 0 !important;
                             background-size: 100% !important;
                             border: none;
                             display: none;
@@ -124,7 +124,7 @@ body{
                             width: 36px;
                         }
                         #tw{            
-                            background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/tw-icon.png?v2) no-repeat 0 0 !important;
+                            background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/tw-icon-negro.png?v2) no-repeat 0 0 !important;
                             background-size: 100% !important;
                             border: none;
                             display: inline-block;
@@ -151,18 +151,27 @@ body{
         transform: translate(-50%, -50%);
         text-align: center;
         top: 50%;
+        width: 100%;
         z-index: 2;
 
         -ms-transform: translate(-50%, -50%);
         -webkit-transform: translate(-50%, -50%);
     }
+        .ctn-box-cabecera video{
+            display: inline-block;
+            max-width: 300px;
+            vertical-align: top;
+        }
         .box-main-titular{  
-            width: 700px;            
+            display: inline-block;
+            padding-top: 150px;
+            vertical-align: top;          
         }
             .bajada{
                 color: #000;
-                margin: 0 auto;  
+                margin: 0 20px;  
                 max-width: 500px;
+                text-align: left;
                 vertical-align: top;                      
             }
                 .bajada h1{               
@@ -173,13 +182,15 @@ body{
                 }            
                 .bajada p{
                     font: 22px/1.4 'prelobook';
-                    text-align: center;
+                    text-align: left;
                 }
                     .bajada p span{
                         font-family: 'prelobold';
                     }                
         .flecha{
-            max-width: 50px;
+            display: block;
+            margin: 40px auto 0;
+            max-width: 50px;            
         }
 .box-bajada-especial{
     padding: 70px 0;
@@ -840,6 +851,33 @@ body{
 
 @media only screen and (max-width: 640px) {
 
+    #wst{
+        display: inline-block;
+    }
+    .box-cabecera{
+        height: auto;
+    }
+    .ctn-box-cabecera{
+        left: 0;
+        position: relative;
+        transform: none;
+        top: 0;
+    }
+        .ctn-box-cabecera video{
+            margin-top: 80px;
+        }
+        .box-main-titular{
+            padding-top: 20px;
+        }
+            .bajada h1{
+                font-size: 3.4rem;
+                text-align: center;
+            }
+            .bajada p{
+                margin: 10px auto;
+                max-width: 200px;
+                text-align: center;
+            }
     .box-bajada-especial{
         padding: 70px 20px;
     }
