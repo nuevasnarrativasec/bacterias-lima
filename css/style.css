@@ -327,7 +327,7 @@ body{
                 }
 .box-estudio{
     margin-bottom: 40px;
-    overflow-x: hidden;
+    overflow: hidden;
     position: relative;
 }
     .box-estudio h4{
@@ -336,10 +336,10 @@ body{
     }
     .dato-estudio{
         margin: 0 auto;
-        max-width: 650px;
+        max-width: 700px;
     }
         .box-video-estudio{
-            max-width: 200px;
+            max-width: 250px;
             position: absolute;
         }
             .box-video-estudio video{
@@ -348,7 +348,7 @@ body{
         .dato-estudio img{
             display: inline-block;
             margin: 0 20px 0 0;
-            max-width: 200px;
+            max-width: 250px;
             vertical-align: top;
         }
         .dato-estudio p{
