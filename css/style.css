@@ -327,6 +327,7 @@ body{
                 }
 .box-estudio{
     margin-bottom: 40px;
+    overflow-x: hidden;
     position: relative;
 }
     .box-estudio h4{
@@ -864,7 +865,8 @@ body{
         top: 0;
     }
         .ctn-box-cabecera video{
-            margin-top: 70px;
+            margin-top: 0;
+            max-width: 100%;
         }
         .box-main-titular{
             bottom: 75px;
@@ -995,6 +997,15 @@ body{
     }
     .box-footer h6 {
         font: 1rem / 1.5 'prelobook';
+    }
+    .flecha {
+        bottom: 20px;
+        display: block;
+        left: 50%;
+        margin: 0 auto;
+        max-width: 50px;
+        position: absolute;
+        transform: translate(-50%, 0);
     }
 
 }
