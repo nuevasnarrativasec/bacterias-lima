@@ -998,6 +998,10 @@ body{
 
 @media only screen and (max-width: 1024px) {
    
-    
+    #block-1,
+    #block-2,
+    #block-4{
+        background-size: cover;
+    }
 
 }
