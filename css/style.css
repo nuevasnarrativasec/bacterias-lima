@@ -864,20 +864,33 @@ body{
         top: 0;
     }
         .ctn-box-cabecera video{
-            margin-top: 80px;
+            margin-top: 70px;
         }
         .box-main-titular{
-            padding-top: 20px;
+            bottom: 75px;
+            left: 0;
+            padding: 0 20px;
+            position: absolute;
+            width: 89%;
+            z-index: 10;
         }
-            .bajada h1{
-                font-size: 3.4rem;
-                text-align: center;
+            .bajada {
+                color: #ffffff;
+                margin: 0 20px;
+                max-width: 500px;
+                text-align: left;
+                vertical-align: top;
+                text-shadow: 2px 1px 3px #000000;
             }
-            .bajada p{
-                margin: 10px auto;
-                max-width: 200px;
-                text-align: center;
-            }
+                .bajada h1{
+                    font-size: 2.4rem;
+                    text-align: center;
+                }
+                .bajada p{
+                    margin: 10px auto;
+                    max-width: 200px;
+                    text-align: center;
+                }
     .box-bajada-especial{
         padding: 70px 20px;
     }
