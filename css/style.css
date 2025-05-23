@@ -55,6 +55,45 @@ body{
     overflow-x: hidden;
 }
 
+.box-header-publi{
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+    .ctn-box-header-publi{
+        margin: 0 auto;
+        max-width: 980px;
+        text-align: right;
+    }
+        .ctn-box-header-publi h5{
+            color: #000;
+            float: left;
+            font: 1.1rem / 1 'Bite Chalk';
+            margin: 0 auto;
+            padding: 7px 0;
+            text-align: left;
+        }
+        .header-publi{
+            display: inline-block;
+            text-align: center;
+            vertical-align: top;
+        }
+            .header-publi p{
+                display: inline-block;
+                font: 14px/1.3 'prelobook';
+                margin: 0 auto;
+                vertical-align: middle;
+            }
+            .header-publi img{
+                display: inline-block;
+                max-width: 100px;
+                vertical-align: middle;
+            }
+
 #header{
     margin-bottom: 50px;
     width: 100%;
@@ -84,11 +123,12 @@ body{
                     width: 110px;
                 }
                 #social{
-                        float: right;
-                        margin: 20px;
-                        position: absolute;
-                        right: 0;
-                        z-index: 600;
+                    float: right;
+                    margin: 20px;
+                    position: absolute;
+                    right: 0;
+                    top: 50px;
+                    z-index: 600;
                 }
                 #social ul{
                     display: inline-block;
@@ -1006,6 +1046,10 @@ body{
         max-width: 50px;
         position: absolute;
         transform: translate(-50%, 0);
+    }
+    .ctn-box-header-publi h5{
+        max-width: 150px;
+        padding: 0 10px;
     }
 
 }
