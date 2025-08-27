@@ -71,7 +71,7 @@ body{
     }
         .ctn-box-header-publi h5{
             color: #000;
-            float: left;
+            /*float: left;*/
             font: 1.1rem / 1 'Bite Chalk';
             margin: 0 auto;
             padding: 7px 0;
