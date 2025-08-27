@@ -206,7 +206,7 @@ body{
         #video-portada{
             display: none;
         }
-        #video-portada-circular{
+        #heroVideo{
             display: inline-block;
             max-width: 480px;
             object-fit: cover;            
@@ -964,6 +964,8 @@ body{
         .box-footer h6{
             font: 1rem/1.5 'prelobook';
         }
+    
+   
 
 
 @media only screen and (max-width: 640px) {
@@ -1076,7 +1078,11 @@ body{
     .box-veces p:nth-child(2){
         padding: 15px 0;
     }
-    .bg-superficies-desktop {
+    .bg-superficies-desktop,
+    .bacteria-portada-1,
+    .bacteria-portada-2,
+    .bacteria-portada-3,
+    .bacteria-portada-4 {
         display: none;
     }
     .bg-superficies-movil {
@@ -1140,6 +1146,18 @@ body{
         .box-header-publi{
             padding: 10px 0 15px;
         }
+
+    #heroVideo{
+        display: block;
+        max-width: 100%;
+        object-fit: cover;            
+           
+        clip-path: none;
+        -webkit-clip-path: none;
+                       
+        mask-image: none;
+        -webkit-mask-image: none;
+    }
 
 
 }
