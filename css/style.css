@@ -247,6 +247,31 @@ body{
             margin: 40px auto 0;
             max-width: 50px;            
         }
+
+        .bacteria-portada-1{
+            /*left: -10%;*/
+            max-width: 120px;
+            position: absolute;
+            top: 40px;
+        }
+        .bacteria-portada-2{
+            /*left: -10%;*/
+            max-width: 190px;
+            position: absolute;
+            top: 350px;
+        }
+        .bacteria-portada-3{
+            /*left: -10%;*/
+            max-width: 350px;
+            position: absolute;
+            top: 40px;
+        }
+        .bacteria-portada-4{
+            /*left: -10%;*/
+            max-width: 220px;
+            position: absolute;
+            top: 550px;
+        }
 .box-bajada-especial{
     padding: 70px 0;
 }
@@ -430,6 +455,42 @@ body{
     }
     .salirLeftBacteria-1{
         left: -100%;
+        transition: all 0.6s ease-in-out; 
+    }
+    .enterLeftBacteriaPortada-1{
+        left: 3%;
+        transition: all 0.6s ease-in-out; 
+        animation: flote-lento 4s ease-in-out infinite; 
+    }
+    .salirLeftBacteriaPortada-1{
+        left: -100%;
+        transition: all 0.6s ease-in-out; 
+    }
+    .enterLeftBacteriaPortada-2{
+        left: -5%;
+        transition: all 0.6s ease-in-out; 
+        animation: flote-lento 4s ease-in-out infinite; 
+    }
+    .salirLeftBacteriaPortada-2{
+        left: -100%;
+        transition: all 0.6s ease-in-out; 
+    }
+    .enterRightBacteriaPortada-3{
+        right: -5%;
+        transition: all 0.6s ease-in-out; 
+        animation: flote-lento 4s ease-in-out infinite; 
+    }
+    .salirRighBacteriaPortada-3{
+        right: -100%;
+        transition: all 0.6s ease-in-out; 
+    }
+    .enterRightBacteriaPortada-4{
+        right: -1%;
+        transition: all 0.6s ease-in-out; 
+        animation: flote-lento 4s ease-in-out infinite; 
+    }
+    .salirRighBacteriaPortada-4{
+        right: -100%;
         transition: all 0.6s ease-in-out; 
     }
     @keyframes flote-lento {

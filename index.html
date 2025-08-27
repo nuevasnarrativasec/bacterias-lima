@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bacterias Lima</title>
 
-    <link rel="stylesheet" href="./css/style.css?v15">
+    <link rel="stylesheet" href="./css/style.css?v16">
     <link rel="stylesheet" href="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/css/examples.css?v4">
 
     <style>   
@@ -96,6 +96,11 @@
 
             <img class="flecha" src="./img/flecha-bajar-negra.png" alt="" width="100%">
         </div>
+
+        <img src="./img/bacteria-portada-1.png" alt="" width="100%" class="bacteria-portada-1">
+        <img src="./img/bacteria-portada-2.png" alt="" width="100%" class="bacteria-portada-2">
+        <img src="./img/bacteria-portada-3.png" alt="" width="100%" class="bacteria-portada-3">
+        <img src="./img/bacteria-portada-4.png" alt="" width="100%" class="bacteria-portada-4">
 
     </div>
 
@@ -945,6 +950,66 @@
             }
         })
         .addTo(controller);
+
+        var controller = new ScrollMagic.Controller();       
+        new ScrollMagic.Scene({
+            triggerElement: ".box-cabecera",
+            triggerHook: 0.5,
+        })
+            .on("enter", function(event) {
+                $(".bacteria-portada-1").removeClass("salirLeftBacteriaPortada-1"); 
+                $(".bacteria-portada-1").addClass("enterLeftBacteriaPortada-1"); 
+            })
+            .on("leave", function(event) {
+                $(".bacteria-portada-1").removeClass("enterLeftBacteriaPortada-1"); 
+                $(".bacteria-portada-1").addClass("salirLeftBacteriaPortada-1");
+            })
+            .addTo(controller); 
+
+        var controller = new ScrollMagic.Controller();       
+        new ScrollMagic.Scene({
+            triggerElement: ".box-cabecera",
+            triggerHook: 0.5,
+        })
+            .on("enter", function(event) {
+                $(".bacteria-portada-2").removeClass("salirLeftBacteriaPortada-2"); 
+                $(".bacteria-portada-2").addClass("enterLeftBacteriaPortada-2"); 
+            })
+            .on("leave", function(event) {
+                $(".bacteria-portada-2").removeClass("enterLeftBacteriaPortada-2"); 
+                $(".bacteria-portada-2").addClass("salirLeftBacteriaPortada-2");
+            })
+            .addTo(controller); 
+
+        var controller = new ScrollMagic.Controller();       
+        new ScrollMagic.Scene({
+            triggerElement: ".box-cabecera",
+            triggerHook: 0.5,
+        })
+            .on("enter", function(event) {
+                $(".bacteria-portada-3").removeClass("salirRightBacteriaPortada-3"); 
+                $(".bacteria-portada-3").addClass("enterRightBacteriaPortada-3"); 
+            })
+            .on("leave", function(event) {
+                $(".bacteria-portada-3").removeClass("enterRightBacteriaPortada-3"); 
+                $(".bacteria-portada-3").addClass("salirRightBacteriaPortada-3");
+            })
+            .addTo(controller); 
+
+        var controller = new ScrollMagic.Controller();       
+        new ScrollMagic.Scene({
+            triggerElement: ".box-cabecera",
+            triggerHook: 0.5,
+        })
+            .on("enter", function(event) {
+                $(".bacteria-portada-4").removeClass("salirRightBacteriaPortada-4"); 
+                $(".bacteria-portada-4").addClass("enterRightBacteriaPortada-4"); 
+            })
+            .on("leave", function(event) {
+                $(".bacteria-portada-4").removeClass("enterRightBacteriaPortada-4"); 
+                $(".bacteria-portada-4").addClass("salirRightBacteriaPortada-4");
+            })
+            .addTo(controller); 
 
     </script>    
 
