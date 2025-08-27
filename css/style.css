@@ -1191,6 +1191,14 @@ body{
 
 }
 
+@media only screen and (max-width: 667px){
+
+    .box-video-circular img{
+        width: 300px;
+    }
+
+}
+
 @media only screen and (max-height: 732px) {
    
     #block-1,
