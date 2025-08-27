@@ -219,8 +219,9 @@ body{
         }
         .box-main-titular{  
             display: inline-block;
-            padding-top: 150px;
-            vertical-align: top;          
+            padding-top: 100px;            
+            padding-left: 20px;
+            vertical-align: top;        
         }
             .bajada{
                 color: #000;
@@ -964,7 +965,32 @@ body{
         .box-footer h6{
             font: 1rem/1.5 'prelobook';
         }
-    
+    .box-video-circular{
+        display: inline-block;
+        left: 0;  
+        position: relative;    
+        vertical-align: top;
+        width: 490px;       
+    }
+        .box-video-circular video{
+            display: inline-block;
+            max-width: 406px;
+            object-fit: cover;     
+            position: relative;     
+            z-index: 20;  
+           
+            clip-path: circle(46% at 50% 50%);
+            -webkit-clip-path: circle(46% at 50% 50%);
+                       
+            mask-image: radial-gradient(circle, white 100%, transparent 100%);
+            -webkit-mask-image: radial-gradient(circle, white 100%, transparent 100%);
+        }
+        .box-video-circular img{
+            left: 48px;
+            position: absolute;
+            top: 3px;            
+            width: 457px;
+        }
    
 
 
@@ -1157,6 +1183,9 @@ body{
                        
         mask-image: none;
         -webkit-mask-image: none;
+    }
+    .box-video-circular{
+        display: none;
     }
 
 
