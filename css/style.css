@@ -67,6 +67,7 @@ body{
     .ctn-box-header-publi{
         margin: 0 auto;
         max-width: 980px;
+        position: relative;
         text-align: right;
     }
         .ctn-box-header-publi h5{
@@ -123,12 +124,11 @@ body{
                     width: 110px;
                 }
                 #social{
-                    float: right;
-                    margin: 20px;
                     position: absolute;
                     right: 0;
-                    top: 50px;
+                    top: -2px;
                     z-index: 600;
+                    margin: 0;
                 }
                 #social ul{
                     display: inline-block;
@@ -202,6 +202,20 @@ body{
             display: inline-block;
             max-width: 300px;
             vertical-align: top;
+        }
+        #video-portada{
+            display: none;
+        }
+        #video-portada-circular{
+            display: inline-block;
+            max-width: 480px;
+            object-fit: cover;            
+           
+            clip-path: circle(46% at 50% 50%);
+            -webkit-clip-path: circle(46% at 50% 50%);
+                       
+            mask-image: radial-gradient(circle, white 100%, transparent 100%);
+            -webkit-mask-image: radial-gradient(circle, white 100%, transparent 100%);
         }
         .box-main-titular{  
             display: inline-block;
@@ -896,6 +910,10 @@ body{
     #wst{
         display: inline-block;
     }
+    #social {
+        right: 5px;
+        top: -7px;        
+    }
     .box-cabecera{
         height: auto;
     }
@@ -934,6 +952,12 @@ body{
                     max-width: 200px;
                     text-align: center;
                 }
+    #video-portada{
+        display: block;
+    }
+    #video-portada-circular{
+        display: none;
+    }
     .box-bajada-especial{
         padding: 70px 20px;
     }
@@ -1049,7 +1073,7 @@ body{
         transform: translate(-50%, 0);
     }
     .ctn-box-header-publi h5{
-        max-width: 150px;
+        /*max-width: 150px;*/
         padding: 0 10px;
     }
         .box-header-publi{
@@ -1066,6 +1090,7 @@ body{
     #block-4{
         background-size: 80%;
     }
+   
 
 }
 
@@ -1075,6 +1100,9 @@ body{
     #block-2,
     #block-4{
         background-size: cover;
+    }
+     .box-main-titular{
+        padding-top: 50px;
     }
 
 }
